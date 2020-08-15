@@ -1,0 +1,95 @@
+body {
+	background: white;
+	color: white;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serf;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: black;
+	background-image: url("images/code.png");
+	height: 400px;
+	padding: 20px;
+	text-align: center;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+header .mobile {
+	display: none;
+}
+
+header .logo a {
+	background-image: url("images/Logo.png");
+	background-size: 175px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 190px;
+	position: relative;
+	text-indent: -99999999px;
+	top: -50px;
+	width: 150px;
+}
+
+div {
+	color: black;
+	text-align: center;
+	font-size: 40px;
+}
+
+@media screen and (max-width: 715px) {
+	header .mobile {
+		display: inline-block;
+	}
+
+	header .desktop {
+		display: none;
+	}
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	margin: 0 20px 0 0;
+}
+
+.features {
+	background: white;
+	color: gray;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.features figure {
+	margin: auto;
+	text-align: center;
+	width: 250px;
+}
+
+.features figure img {
+	width: 250px;
+}
+
+@media screen and (max-width: 715px) {
+	.features {
+		display: block;
+	}
+}
+
+footer {
+	background: black;
+	padding: 20px 20px;
+	text-align: center;
+}
